@@ -1,0 +1,75 @@
+@media screen and (max-width: 756px) {
+  .navbar {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-list {
+    flex-direction: column;
+    margin: 2% 0%;
+  }
+  .nav-list li {
+    margin-top: 40%;
+  }
+  .logo {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .v-nav-resp {
+    opacity: 0;
+  }
+  .h-nav-resp {
+    height: 12vh;
+  }
+  .container-h {
+    width: 100%;
+    font-size: xxx-large;
+  }
+  .container-p {
+    margin: 8% 0%;
+    padding: 0% 0%;
+    font-size: xx-large;
+  }
+  .header-btn {
+    padding: 5.5% 5%;
+  }
+  .section-1 {
+    margin: 0% 0%;
+  }
+  .tour-trail-container {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .tour-card-container {
+    width: 100%;
+  }
+  .tour-img-container {
+    width: 100%;
+  }
+  .section-2 {
+    display: none;
+  }
+  .blog-container {
+    flex-direction: column;
+  }
+  .blog-post {
+    width: 100%;
+    padding: 0% 0%;
+  }
+  .section-4 {
+    margin: 0% 0%;
+  }
+  .footer {
+    flex-direction: column;
+    padding: 4% 0%;
+    margin: 0% 0%;
+  }
+  .footer-para {
+    text-align: center;
+    margin: 2% 0%;
+  }
+}

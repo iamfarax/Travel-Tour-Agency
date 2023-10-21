@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Lato:ital,wght@0,100;1,100&family=Oswald:wght@200&family=Ubuntu:ital,wght@0,300;1,300&display=swap");
+.l-font {
+  font-family: "Lato", sans-serif;
+}
+.o-font {
+  font-family: "Oswald", sans-serif;
+}
+.u-font {
+  font-family: "Ubuntu", sans-serif;
+}
+.c-font {
+  font-family: "Croissant One", serif;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+}
+header{
+  color: whitesmoke;
+  top: 0%;
+  height: 100vh;
+  animation-name: header-animation;
+  animation-duration: 20s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: initial;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+}
+@keyframes header-animation {
+  0% {
+    background: rgba(0, 0, 0, 0.7) url(carousel-1.jpg);
+    background-size: 100% 100%;
+    background-blend-mode: darken;
+  }
+  25% {
+    background: rgba(0, 0, 0, 0.7) url(carousel-2\ .jpg);
+    background-size: 100% 100%;
+    background-blend-mode: darken;
+  }
+  50% {
+    background: rgba(0, 0, 0, 0.7) url(carousel-3.webp);
+    background-size: 100% 100%;
+    background-blend-mode: darken;
+  }
+  75% {
+    background: rgba(0, 0, 0, 0.7) url(carousel-4.webp);
+    background-size: 100% 100%;
+    background-blend-mode: darken;
+  }
+  100% {
+    background: rgba(0, 0, 0, 0.7) url(carousel-1.jpg);
+    background-size: 100% 100%;
+    background-blend-mode: darken;
+  }
+}
+.navbar {
+  width: 80%;
+  background: #0009;
+  color: whitesmoke;
+  margin: auto;
+  position: sticky;
+  top: 0;
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin-left: 2%;
+  width: 10%;
+  height: 12vh;
+}
+.logo img {
+  width: 100%;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  margin-right: 12%;
+}
+.nav-list li {
+  margin-right: 15%;
+}
+.nav-list li a {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+.nav-list li a:hover {
+  text-decoration: none;
+  color: rgb(218, 62, 19);
+}
+.header-section {
+  margin: 10% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-container-contant {
+  text-align: center;
+  padding: 2% 5%;
+}
+.container-h {
+  font-size: 65px;
+  padding: 2% 0%;
+}
+.container-p {
+  font-size: 18px;
+  padding: 0% 25%;
+}
+.header-btn {
+  margin: 2% 0%;
+  padding: 1.5% 5%;
+  cursor: pointer;
+  background-color: white;
+  color: #0009;
+  border: 2px solid #0009;
+  border-radius: 5px;
+}
+.header-btn:hover {
+  background: none;
+  color: whitesmoke;
+}
+.section-1 {
+  margin-top: 4%;
+}
+.tour-trail-container {
+  margin: auto;
+  display: flex;
+  width: 70%;
+  background: #1c1c1c;
+  color: whitesmoke;
+}
+.tour-img-container {
+  width: 40%;
+}
+.tour-img-container img {
+  width: 100%;
+}
+.tour-card-container {
+  width: 60%;
+}
+.sec1-heading {
+  text-align: flex-start;
+  margin: 15% 5%;
+  /* margin-top: 15%;
+  margin-left: 5%; */
+  font-size: 30px;
+}
+.card-item {
+  margin: 15% 2%;
+  display: flex;
+  align-items: center;
+}
+.card-contant {
+  width: 50%;
+}
+.card-detail {
+  margin: 2% 0%;
+}
+.card-price {
+  color: red;
+}
+.card-btn {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tour-btn {
+  background-color: red;
+  color: whitesmoke;
+  padding: 3% 15%;
+  border: none;
+}
+.section-2 {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sec2-heading {
+  text-align: center;
+  font-size: 35px;
+  margin: 3% 0%;
+  color: red;
+}
+.gallery-img-container {
+  width: 100%;
+  display: flex;
+}
+.gallery-img {
+  margin: 3% 4%;
+  width: 30%;
+  height: auto;
+}
+.gallery-img img {
+  border-radius: 50%;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+.sec3-heading {
+  margin: 5%;
+  text-align: center;
+  font-size: 35px;
+  color: red;
+}
+.blog-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blog-post {
+  background: lightgray;
+  border-radius: 5px;
+  border: none;
+  padding: 1% 1%;
+  margin: 0% 2%;
+  width: 25%;
+}
+.blog-img {
+  width: 100%;
+}
+.blog-img img {
+  border-radius: 5px;
+  width: 100%;
+}
+.blog-contant {
+  margin: 5% 1%;
+}
+.blog-title {
+  font-weight: bold;
+  margin: 3% 0%;
+  color: #1c1c1c;
+}
+.blog-para {
+  line-height: 1.6em;
+  font-size: 18px;
+  font-weight: bold;
+}
+.readmore-btn {
+  margin: 5% 0%;
+  background: #0009;
+  color: whitesmoke;
+  padding: 2% 2%;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+.readmore-btn:hover {
+  background: #1c1c1c;
+  color: red;
+}
+.section-4 {
+  background: #0009;
+  margin-top: 2%;
+}
+.form-heading {
+  text-align: center;
+  font-size: 25px;
+  padding: 4% 0%;
+  color: red;
+  font-weight: bold;
+}
+.form-container {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.c-form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.c-form input {
+  background: none;
+  color: whitesmoke;
+  border: 1.5px solid #0009;
+  outline: none;
+  height: 3vh;
+  width: 80%;
+  padding: 1% 1%;
+  border-radius: 5px;
+  margin: 1% 0%;
+}
+#form-textarea {
+  background: none;
+  color: whitesmoke;
+  height: 15vh;
+  width: 80%;
+  padding: 1% 1%;
+  border-radius: 5px;
+  border: 1.5px solid #0009;
+  outline: none;
+  margin: 1% 0%;
+}
+.form-btn {
+  background: #0009;
+  color: whitesmoke;
+  padding: 1% 5%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 1% 0%;
+}
+.form-btn:hover {
+  color: red;
+}
+.footer {
+  background: #0009;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 2%;
+  padding: 2% 0%;
+}
+.burger {
+  position: fixed;
+  top: 3%;
+  left: 3%;
+  cursor: pointer;
+  display: none;
+}
+.line {
+  background: whitesmoke;
+  height: 6px;
+  width: 40px;
+  margin: 5px 5px;
+}
